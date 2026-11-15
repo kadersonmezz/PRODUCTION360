@@ -7,7 +7,6 @@ import {
   Settings,
   Bell,
   Search,
-  CircleHelp,
   UserRound,
   Boxes,
   Warehouse,
@@ -30,7 +29,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend
 } from 'recharts';
 
 
