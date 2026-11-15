@@ -1,16 +1,53 @@
-# React + Vite
+# PRODUCTION360
+### Production & Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PRODUCTION360 is a web-based production and inventory management application developed as part of a Web Development with JavaScript training program. The project focuses on bringing product management, stock tracking and production operations together in a single interface.
 
-Currently, two official plugins are available:
+The application is designed to provide a simple way to manage products, monitor inventory levels and follow production orders. It also includes a dashboard and reporting section where users can view general information about products, stock quantities and production activities.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Overview
 
-## React Compiler
+The system consists of six main sections: Dashboard, Products, Inventory, Production, Reports and Settings. Each section serves a different purpose within the application and provides access to the relevant operations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Product management allows users to add new products, view existing records, search by product name or SKU, update product information and delete products. The inventory section displays current stock quantities and allows stock levels to be adjusted. In the production section, users can create production orders, update their statuses and manage existing orders.
 
-## Expanding the ESLint configuration
+The dashboard presents an overview of the system, while the reports section displays summary information based on product, inventory and production data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+The project was developed using React and JavaScript with Vite as the development tool. The interface was styled using Pure CSS. Lucide React was used for icons, and Recharts was used for data visualization. LocalStorage was implemented to preserve product and production order data in the browser.
+
+## Installation and Running
+
+To run the project locally, clone the repository and navigate to the project directory.
+
+```bash
+git clone https://github.com/kadersonmezz/PRODUCTION360.git
+cd PRODUCTION360
+```
+
+Install the required dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+The project is organized into separate folders for assets, components, pages and interfaces. The main application files are located in the `src` directory.
+
+## Development Purpose
+
+This project was developed to put the concepts covered in the Web Development with JavaScript training into practice. It provided an opportunity to work with React, manage application data, implement CRUD operations and deploy a frontend application.
